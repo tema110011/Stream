@@ -78,9 +78,9 @@ public class PuttingIntoPractice {
                 .max(Comparator.comparingInt(Transaction::getValue))
                 .get()
                 .getValue());
-/**
- * 8. Найти транзакцию с минимальной суммой.
- */
+        /**
+         * 8. Найти транзакцию с минимальной суммой.
+         */
         System.out.println("8. Найти транзакцию с минимальной суммой.");
         System.out.println(transactions.stream()
                 .min(Comparator.comparingInt(Transaction::getValue))
